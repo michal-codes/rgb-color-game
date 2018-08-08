@@ -1,0 +1,66 @@
+body {
+    background: rgb(96, 97, 103);
+    font-family: "Monaco", "Consolas";
+    margin: 0;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    text-transform: uppercase;
+    line-height: 1.23;
+    letter-spacing: 1.5px;
+}
+#title {
+    background: rgb(32, 34, 43);
+    height: 100%;
+    margin-top: 0;
+    color: white;
+}
+#container {
+    max-width: 700px;
+    margin: 15px auto;
+}
+.square {
+    background: black;
+    float: left;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: background 0.6s;
+}
+#stripe {
+    background: steelblue;
+    text-align: center;
+    height: 39px;
+    text-transform: uppercase;
+}
+#message {
+    display: inline-block;
+    width: 25%;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+button {
+    background: steelblue;
+    font-family: "Monaco", "Consolas";
+    border: none;
+    outline: none;
+    font-size: 12px;
+    height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: all 0.3s;   
+}
+button:hover {
+    background: rgb(32, 34, 43);
+    color: white;
+}
+.selected {
+    background: rgb(32, 34, 43);
+    color: white;
+}
